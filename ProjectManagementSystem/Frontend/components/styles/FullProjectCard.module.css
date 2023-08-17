@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* * {
+	box-sizing: border-box;
+} */
+.main_container{
+	background-color: rgb(123, 123, 173);
+	color:white
+}
+.title{
+	text-align: center;
+
+}
+.domain{
+	width:fit-content;
+	height: fit-content;
+	margin:auto;
+	padding: 0 ,5px;
+}
+.domain_sub{
+	/* background-color: rgb(202, 202, 58); */
+	background-color:  rgb(47, 183, 144);;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding:1px 4px;
+	border: red;
+	margin: 2px 10px;
+	box-sizing: border-box;
+}
+
+.table_container{
+	background-color: rgb(66, 66, 71);
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 5px 0;
+	padding: 5px;
+}
+.sub_table{
+	display: inline-block;
+	padding:5px 10px;
+	width:fit-content;
+	margin:0 auto;
+	box-sizing: border-box;
+	border-radius:10px;
+	background-color: rgb(47, 183, 144);
+	font-weight: bold;
+}
+
+.duration {
+	color:rgb(221, 9, 9);
+	font-weight: bold;
+	border-radius: 7px;
+	box-sizing: border-box;;
+}
+
+
+.budget{
+	color:rgb(221, 9, 9);
+	font-weight: bold;
+	border-radius: 7px;
+	box-sizing: border-box;;
+
+}
+.collapse{
+	padding: 10px;
+	background-color: grey;
+	font-weight: bold;
+}
+.collapse :hover{
+	background-color: black;
+}
+
+.expand {
+	margin: 10px;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: rgb(30, 91, 165);
+}
+
+.domain_tag {
+	font-weight: bold;
+}
